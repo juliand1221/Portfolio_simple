@@ -276,7 +276,8 @@ body {
 
 }
 .about .p {
-    max-width: 40rem;
+    opacity: 0.9;
+    max-width: 50rem;
     margin: 0 0 2rem;
     font-size: 1.2em;
     text-align:justify;
@@ -284,7 +285,7 @@ body {
 .about .habilidades{
     display: flex;
     gap: 2em;
-    padding-bottom: 5em;
+    padding-bottom: 2em;
 }
 .about .habilidades .hab{
     width: 5em;
