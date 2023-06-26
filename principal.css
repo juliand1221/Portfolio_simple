@@ -170,15 +170,14 @@ body {
     
 }
  .seccion .ul{
-    /* background: red; */
     margin: 2em 0 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    gap: 1em;
  }
  .seccion .ul .li{
-    /* background: chartreuse; */
     margin: 0 1em;
  }
  .seccion .ul .a{
@@ -215,22 +214,22 @@ body {
  }
 .seccion .grid {
     width: 90%;
-    max-width: 40em;
+    max-width: 90em;
     margin: 1em 0;
 
     display: grid;
     grid-template-columns: repeat( auto-fit , minmax( 15rem , 1fr));
-    gap: 1em;
+    gap: 2em;
 }
 .seccion .article {
     width: 100%;
     min-height: 20vh;
-    background: lightgoldenrodyellow;
+    background: black;
 
-    display: flex;
+    /* display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
     position: relative;
     overflow: hidden;
@@ -279,8 +278,16 @@ body {
 .about .p {
     max-width: 40rem;
     margin: 0 0 2rem;
-    font-size: 1.1em;
-    text-align: left;
+    font-size: 1.2em;
+    text-align:justify;
+}
+.about .habilidades{
+    display: flex;
+    gap: 2em;
+    padding-bottom: 5em;
+}
+.about .habilidades .hab{
+    width: 5em;
 }
 .about .rrss {
     width: 100%;
@@ -305,6 +312,11 @@ body {
     position: relative;
     z-index: 2;
 
+}
+.copyright{
+    opacity: 0.5;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*
 Imagen de <a href="https://www.freepik.es/vector-gratis/desarrolladores-web-dibujados-mano_12063795.htm#query=frontend&position=1&from_view=search&track=sph">Freepik</a>
